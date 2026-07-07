@@ -5,7 +5,7 @@ import axios from  'axios';
 import { useAuth, useUser } from '@clerk/clerk-react';
 import { Toaster } from 'react-hot-toast';
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://medivora-care-backend.onrender.com";
 const API=axios.create({ baseURL: API_BASE });
 
 //helper functions

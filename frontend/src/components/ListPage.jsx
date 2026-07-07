@@ -3,7 +3,7 @@ import { listPageStyles } from '../assets/dummyStyles'
 import { useParams } from 'react-router-dom';
 import { Calendar, Phone, Search, X} from 'lucide-react';
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://medivora-care-backend.onrender.com";
 
 //helper function similar to dashboard page
 function parseDateTime(date, time) {

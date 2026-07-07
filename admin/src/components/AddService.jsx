@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { addServiceStyles } from '../assets/dummyStyles.js'
 import { AlertTriangle, Clock, CheckCircle, XCircle ,Image , Plus, Trash2, Calendar } from "lucide-react";
 const AddService = ({serviceId}) => {
-    const API_BASE = "http://localhost:4000";
+    const API_BASE = "https://medivora-care-backend.onrender.com";
 
      const fileRef = useRef(null);
   const [imagePreview, setImagePreview] = useState(null);
